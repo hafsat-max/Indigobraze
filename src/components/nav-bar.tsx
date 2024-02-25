@@ -1,3 +1,4 @@
+import { Button, Text, Menu, Flex } from '@mantine/core'
 import { HambergerMenu } from 'iconsax-react'
 import React from 'react'
 
@@ -11,17 +12,33 @@ export const NavBar = () => {
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
                 {
                     list.map((item, idx) => (
-                        <li key={idx} className='text-18 '>{item}</li>
+                        <li key={idx} className='text-18 list-none text-grey'>{item}</li>
                     ))
                 }
                 <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
             </ul>
-            <HambergerMenu
-                size="32"
-                color="#000080"
-                className='hidden max-[600px]:block'
-            
-            />
+
+            <Menu>
+                <Menu.Target>
+                    <HambergerMenu
+                        size="32"
+                        color="#000080"
+                        className='hidden max-[600px]:block cursor-pointer'
+                    />
+                </Menu.Target>
+
+                <Menu.Dropdown>
+                    <Menu.Item color="red">
+                        <Flex direction='column' gap={12}>
+                            {
+                                list.map((item, idx) => (
+                                    <li key={idx} className='text-18 list-none text-grey'>{item}</li>
+                                ))}
+                            <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
+                        </Flex>
+                    </Menu.Item>
+                </Menu.Dropdown>
+            </Menu>
         </section>
     )
 }
