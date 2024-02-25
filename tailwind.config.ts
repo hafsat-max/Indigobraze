@@ -16,10 +16,14 @@ const config: Config = {
       },
       colors:{
         grey:'#1E1E1E',
-        primary:'#000080'
+        primary:'#000080',
+        secondary:'#0D0D2A'
       },
       fontSize:{
-        18:'18px'
+        18:'clamp(14px,1.125vw,18px)',
+      },
+      gap:{
+        32:'clamp(16px,2vw,32px)' 
       }
     },
   },
