@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 export const HeroSection = () => {
 
     return (
-        <section className='flex justify-center items-center  w-full bg-[url("/hero.png")] bg-no-repeat bg-cover bg-center h-screen'>
+        <section className='flex justify-center items-center  w-full bg-[url("/hero.png")] bg-no-repeat bg-cover bg-center h-[calc(100vh_-_68px)]'>
             <motion.div
                 initial="hidden"
                 whileInView="visible"

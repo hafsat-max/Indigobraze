@@ -13,6 +13,7 @@ export const NavBar = () => {
                     <li key={idx}>{item}</li>
                 ))
             }
+            <button className='bg-primary text-white py-3 px-8 rounded-lg'>Register</button>
         </ul>
 
    </section>
