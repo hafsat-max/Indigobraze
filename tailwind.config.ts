@@ -21,6 +21,7 @@ const config: Config = {
       },
       fontSize:{
         18:'clamp(14px,1.125vw,18px)',
+        72:'clamp(32px,4.5vw,72px)'
       },
       gap:{
         32:'clamp(16px,2vw,32px)' 

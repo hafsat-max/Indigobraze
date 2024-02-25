@@ -18,7 +18,7 @@ export const HeroSection = () => {
                 className='flex flex-1 flex-col justify-center items-center gap-12'
             >
                 <div className='flex flex-col gap-4'>
-                <h2 className='max-w-[800px] text-grey font-bold text-7xl text-center'>Elevate Your Career With IndigoBraze.</h2>
+                <h2 className='max-w-[800px] text-grey font-bold text-72 text-center'>Elevate Your Career With IndigoBraze.</h2>
                 <p className='font-medium text-grey text-18 max-w-[730px] text-center'>Join thousands of professionals who have enhanced their skills through our specialized e-learning platform.</p>
                 </div>
 
