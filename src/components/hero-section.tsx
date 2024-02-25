@@ -21,7 +21,6 @@ export const HeroSection = () => {
                 <h2 className='max-w-[800px] text-grey font-bold text-72 text-center'>Elevate Your Career With IndigoBraze.</h2>
                 <p className='font-medium text-grey text-18 max-w-[730px] text-center'>Join thousands of professionals who have enhanced their skills through our specialized e-learning platform.</p>
                 </div>
-
                 <button className='bg-primary text-white py-3 px-8 rounded-lg leading-[140%] over:bg-secondary'>Sign Up</button>
             </motion.div>
         </section>

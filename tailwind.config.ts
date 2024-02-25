@@ -20,7 +20,7 @@ const config: Config = {
         secondary:'#0D0D2A'
       },
       fontSize:{
-        18:'clamp(14px,1.125vw,18px)',
+        18:'clamp(16px,1.125vw,18px)',
         72:'clamp(32px,4.5vw,72px)'
       },
       gap:{

@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import { HeroSection, NavBar } from "@/src/components";
+import { HeroSection, NavBar, WhatWeDo } from "@/src/components";
 
 export default function Home() {
   return (
  <main className=""> 
     <NavBar/>
      <HeroSection/>
+     <WhatWeDo/>
  </main>
   );
 }
