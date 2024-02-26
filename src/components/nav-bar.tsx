@@ -26,7 +26,7 @@ export const NavBar = () => {
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
                 {
                     list.map(({text,id,link}) => (
-                        <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={link}>{text}</a></li>
+                        <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
                 <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
