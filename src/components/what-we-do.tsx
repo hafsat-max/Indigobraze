@@ -18,7 +18,7 @@ const data = [
     },
     {
         id: 3,
-        course: 'Business Analytics',
+        course: 'Business Analysis',
         text: 'Excel in analyzing data for strategic decisions.'
     }
 ]
