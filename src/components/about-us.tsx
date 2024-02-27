@@ -31,7 +31,7 @@ export const AboutUs = () => {
                     <div className='flex flex-col gap-6'>
                         <h2 className=' text-[clamp(24px,3vw,48px)] text-grey max-[890px]:text-center'>About us</h2>
 
-                        <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>When I think about my PM journey, it all started with the excellent training sessions offered by IndigoBrace. Your skills and knowledge of the Project Management lifecycle have been excellent in assisting me to comprehend and apply what I've learnt. The training sessions were suited to my needs, and your real-life experience made them really engaging.</p>
+                        <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>When I think about my PM journey, it all started with the excellent training sessions offered by IndigoBrace. Your skills and knowledge of the Project Management lifecycle have been excellent in assisting me to comprehend and apply what I&apos;ve learnt. The training sessions were suited to my needs, and your real-life experience made them really engaging.</p>
                     </div>
                     <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary self-start cursor-pointer max-[890px]:self-center'>Join Us</button>
                 </motion.div>
