@@ -29,8 +29,9 @@ export const AboutUs = () => {
                         visible: { opacity: 1, y: 0 },
                     }}>
                     <div className='flex flex-col gap-6'>
-                        <h2 className=' text-[clamp(24px,3vw,48px)] text-grey max-[890px]:text-center'>About us</h2>
-
+                        <Flex align='center' gap={8}>
+                            <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>About</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Us</h2>
+                        </Flex>
                         <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>Indigobraze is an educational platform focused on project management, software testing, and business analysis. Our expert-led courses are designed to equip individuals with practical skills for success in today&apos;s job market.</p>
                     </div>
                     <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary self-start cursor-pointer max-[890px]:self-center'>Join Us</button>
