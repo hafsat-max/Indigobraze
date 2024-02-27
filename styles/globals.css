@@ -9,7 +9,7 @@
 .underline-colored:after {
     content: '';
     display: block;
-    width: 100%;
-    height: 2px; /* Height of the underline */
-    background-color: blue; /* Color of the underline */
+    height: 2px; 
+    /* Height of the underline */
+    background-color: #FFBA00; /* Color of the underline */
   }

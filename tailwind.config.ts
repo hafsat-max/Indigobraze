@@ -24,7 +24,9 @@ const config: Config = {
         72:'clamp(32px,4.5vw,72px)'
       },
       gap:{
-        32:'clamp(16px,2vw,32px)' 
+        32:'clamp(16px,2vw,32px)',
+        '20p':'clamp(20px,4vw,80px)',
+        48:'clamp(24px,3vw,48px)'
       }
     },
   },

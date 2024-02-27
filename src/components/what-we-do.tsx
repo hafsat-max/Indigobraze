@@ -28,7 +28,7 @@ export const WhatWeDo = () => {
 
     return (
         <section className='bg-white py-10 px-4' id='about'>
-            <div className='flex flex-col justify-center items-center gap-10'>
+            <div className='flex flex-col justify-center items-center gap-10 relative'>
                 <Flex align='center' gap={8}>
                 <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>What we </h2><h2 className='underline-colored  text-5xl text-grey text-center '>Do</h2>
                 </Flex>
@@ -39,7 +39,7 @@ export const WhatWeDo = () => {
                     plugins={[autoplay.current]}
                     onMouseEnter={autoplay.current.stop}
                     onMouseLeave={autoplay.current.reset}
-                    classNames={{ root: 'w-full flex justify-center gap-1', slide:'items-center' }}
+                    classNames={{ root: 'w-full flex justify-center gap-1 relative', slide:'items-center' }}
                 >
                     {
                         data.map(({ id, course, text }) => (
@@ -52,8 +52,10 @@ export const WhatWeDo = () => {
                             </Carousel.Slide>
                         ))
                     }
-
                 </Carousel>            
+                {/* <Image width={100} height={84} src={'/blue.png'} alt='blue' className='absolute top-[90%] left-[5%]'/>
+                <Image width={100} height={84} src={'/yellow1.png'} alt='' className=' absolute top-[40%] left-[15%]'/>
+                <Image width={100} height={84} src={'/yellow2.png'} alt='' className=' absolute top-[90%] left-[55%]'/> */}
             </div>
         </section>
     )

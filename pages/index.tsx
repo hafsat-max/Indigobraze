@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import { HeroSection, NavBar, WhatWeDo } from "@/src/components";
+import { AboutUs, HeroSection, NavBar, WhatWeDo } from "@/src/components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
     <NavBar/>
      <HeroSection/>
      <WhatWeDo/>
+     <AboutUs/>
  </main>
   );
 }
