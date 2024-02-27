@@ -33,6 +33,7 @@ export const WhatWeDo = () => {
                 <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>What we </h2><h2 className='underline-colored  text-5xl text-grey text-center '>Do</h2>
                 </Flex>
                 <Carousel
+                slideGap='xs'
                     maw={600}
                     mx="auto"
                     loop

@@ -5,19 +5,19 @@ import React from 'react'
 export const NavBar = () => {
     const list = [
         {
-            text:'home',
-            id:1,
+            text: 'home',
+            id: 1,
             link: ''
         },
         {
-            text:'About',
-            id:2,
-            link:'#about'
+            text: 'About',
+            id: 2,
+            link: '#about'
         },
         {
-            text:'Contact',
-            id:3,
-            link:'#contact'
+            text: 'Contact',
+            id: 3,
+            link: '#contact'
         },
     ]
     return (
@@ -25,11 +25,13 @@ export const NavBar = () => {
             <h3 className='font-bold text-xl text-primary'>Logo</h3>
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
                 {
-                    list.map(({text,id,link}) => (
+                    list.map(({ text, id, link }) => (
                         <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
-                <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
+                <a href="https://bit.ly/3Thucc0">
+                    <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
+                </a>
             </ul>
 
             <Menu>
@@ -45,10 +47,12 @@ export const NavBar = () => {
                     <Menu.Item color="red">
                         <Flex direction='column' gap={12}>
                             {
-                                list.map(({text,id,link}) => (
+                                list.map(({ text, id, link }) => (
                                     <li key={id} className='text-18 list-none text-grey cursor-pointer  hover:bg-secondary'><a href={link}>{text}</a></li>
                                 ))}
-                            <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
+                            <a href="https://bit.ly/3Thucc0">
+                                <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
+                            </a>
                         </Flex>
                     </Menu.Item>
                 </Menu.Dropdown>

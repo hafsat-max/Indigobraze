@@ -2,14 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     font-family: 'switzer';
 }
 
 .underline-colored:after {
     content: '';
     display: block;
-    height: 2px; 
+    height: 2px;
     /* Height of the underline */
-    background-color: #FFBA00; /* Color of the underline */
-  }
+    background-color: #FFBA00;
+    /* Color of the underline */
+}
+
+.each {
+    @apply !flex flex-col justify-center items-center gap-6
+}
+
+.slide-active {
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.slide {
+    opacity: 0.5;
+    transform: scale(.7);
+}
+.slick-track{
+    @apply !flex !items-center
+}
