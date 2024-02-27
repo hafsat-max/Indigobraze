@@ -46,7 +46,7 @@ export const NavBar = () => {
                         <Flex direction='column' gap={12}>
                             {
                                 list.map(({text,id,link}) => (
-                                    <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={link}>{text}</a></li>
+                                    <li key={id} className='text-18 list-none text-grey cursor-pointer  hover:bg-secondary'><a href={link}>{text}</a></li>
                                 ))}
                             <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
                         </Flex>
