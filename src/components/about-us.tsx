@@ -29,7 +29,7 @@ export const AboutUs = () => {
                         visible: { opacity: 1, y: 0 },
                     }}>
                     <div className='flex flex-col gap-6'>
-                        <Flex align='center' gap={8}>
+                        <Flex align='center' gap={8} className='max-[890px]:justify-center'>
                             <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>About</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Us</h2>
                         </Flex>
                         <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>Indigobraze is an educational platform focused on project management, software testing, and business analysis. Our expert-led courses are designed to equip individuals with practical skills for success in today&apos;s job market.</p>
