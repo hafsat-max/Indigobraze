@@ -17,7 +17,8 @@ const config: Config = {
       colors:{
         grey:'#1E1E1E',
         primary:'#000080',
-        secondary:'#0D0D2A'
+        secondary:'#0D0D2A',
+        yellow:'#FFBA00'
       },
       fontSize:{
         18:'clamp(16px,1.125vw,18px)',

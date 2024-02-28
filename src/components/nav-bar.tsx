@@ -1,4 +1,4 @@
-import { Button, Text, Menu, Flex } from '@mantine/core'
+import {Menu, Flex } from '@mantine/core'
 import { HambergerMenu } from 'iconsax-react'
 import React from 'react'
 
