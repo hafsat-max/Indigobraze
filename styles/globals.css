@@ -14,20 +14,24 @@
     background-color: #FFBA00;
     /* Color of the underline */
 }
-
+/* 
 .each {
     @apply !flex flex-col justify-center items-center gap-6
-}
+} */
 
 .slide-active {
     opacity: 1;
     transform: scale(1);
 
 }
+.before-after-index {
+    opacity: 1;
+    transform: scale(.7);
+}
 
 .slide {
     opacity: 0.5;
-    transform: scale(.7);
+    transform: scale(.5);
 }
 .slick-track{
     @apply !flex !items-center

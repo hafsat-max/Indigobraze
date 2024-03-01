@@ -10,7 +10,7 @@ export const LiveSessions = () => {
             <div className='w-[88%] mx-auto flex justify-between items-center max-[890px]:flex-col gap-5'>
 
                 {/* left session */}
-                <div className='flex flex-col gap-10 max-[890px]:items-center'>
+                <div className='flex flex-col gap-10 max-[890px]:items-center flex-1'>
                     <div className='flex flex-col gap-6'>
                         <Flex align='center' gap={8} className='max-[890px]:justify-center font-bold'>
                             <h2 className=' text-[2rem] text-grey text-center !no-underline h-[50px]'>Join our Live</h2><h2 className='underline-colored  text-[2rem] text-grey text-center '>Sessions</h2>
