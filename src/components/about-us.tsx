@@ -32,7 +32,7 @@ export const AboutUs = () => {
                         <Flex align='center' gap={8} className='max-[890px]:justify-center'>
                             <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>About</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Us</h2>
                         </Flex>
-                        <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>IndigoBraze Technologies is more than just a career change consultancy firm; we're your trusted partner in launching your successful tech career. Founded by industry veterans with a passion for empowering individuals, we understand the challenges and opportunities that come with navigating the dynamic tech landscape.
+                        <p className='max-w-[460px] font-medium text-base text-grey max-[890px]:text-center max-[890px]:max-w-full'>IndigoBraze Technologies is more than just a career change consultancy firm; we&apos;re your trusted partner in launching your successful tech career. Founded by industry veterans with a passion for empowering individuals, we understand the challenges and opportunities that come with navigating the dynamic tech landscape.
                             <br/><br/>
                             Our mission is to equip individuals with the essential skills, knowledge, and confidence needed to thrive in the tech industry. We achieve this through our rigorous curriculum, expert-led instruction, and unwavering commitment to your success.</p>
                     </div>
