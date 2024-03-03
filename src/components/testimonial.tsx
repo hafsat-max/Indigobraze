@@ -79,7 +79,7 @@ export const Testimonial = () => {
     setTestimonials(data)
   }, [])
 
-  console.log({value, testimonials})
+  // console.log({value, testimonials})
 
   const [parent] = useAutoAnimate({ duration: 500 })
 
@@ -97,7 +97,7 @@ export const Testimonial = () => {
                 setTestimonials(
                   moveItemInArray(data, index)
                 )
-              }} className={`each w-full ${index === 2 ? 'slide-active' : (index === 1 || index === 3) ? "before-after-index" : 'slide'} cursor-pointer`} key={item.idx}>
+              }} className={` ${index === 2 ? 'slide-active' : (index === 1 || index === 3) ? "before-after-index" : 'slide'} cursor-pointer`} key={item.idx}>
                 <Image width={134} height={134} src={'/about.png'} alt='' className='rounded-full max-w-full' />
               </figure>
             ))

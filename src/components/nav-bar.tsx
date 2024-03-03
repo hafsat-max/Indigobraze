@@ -1,11 +1,12 @@
 import {Menu, Flex } from '@mantine/core'
 import { HambergerMenu } from 'iconsax-react'
+import Image from 'next/image'
 import React from 'react'
 
 export const NavBar = () => {
     const list = [
         {
-            text: 'home',
+            text: 'Home',
             id: 1,
             link: ''
         },
@@ -22,7 +23,7 @@ export const NavBar = () => {
     ]
     return (
         <section className='flex items-center justify-between px-5 py-5'>
-            <h3 className='font-bold text-xl text-primary'>Logo</h3>
+            <Image width={70} height={50} alt='logo' src='/logo.png' />
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
                 {
                     list.map(({ text, id, link }) => (

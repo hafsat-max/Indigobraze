@@ -31,7 +31,7 @@
 
 .slide {
     opacity: 0.5;
-    transform: scale(.5);
+    /* transform: scale(.5); */
 }
 .slick-track{
     @apply !flex !items-center
