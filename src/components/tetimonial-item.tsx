@@ -8,8 +8,8 @@ interface ITestimonialItemProps {
     image: string;
 }
 export const TestimonialItem = ({ testimonial, name, isActive, image }:ITestimonialItemProps) => {
-    const activeClass = "scale-100 bg-primary text-white ";
-    const normalClass = "scale-90 bg-white ";
+    const activeClass = "scale-100 bg-primary text-white h-[400px]";
+    const normalClass = "scale-90 bg-white h-[380px]";
 
     return (
         <div className={`cursor-grab transition-transform duration-300 shadow-lg rounded-lg overflow-hidden mb-4 border flex flex-col ${isActive ? activeClass : normalClass}`}>
