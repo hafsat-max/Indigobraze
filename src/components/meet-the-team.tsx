@@ -48,8 +48,8 @@ export const MeetTheTeam = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 3000, 
+        autoplay: true,
+        autoplaySpeed: 3000, 
         centerMode: true,
         focusOnSelect: true,
         beforeChange: (_:number, next:number) => setCurrentSlide(next),
@@ -76,7 +76,7 @@ export const MeetTheTeam = () => {
     };
 
     return (
-        <div className="testimonial-carousel  max-w-[1200px] mx-auto py-12 md:pb-40 overflow-x-hidden h-full flex flex-col gap-6">
+        <div className="testimonial-carousel  max-w-[1200px] mx-auto py-12 md:pb-40 overflow-x-hidden h-full flex flex-col gap-6 bg-[url('/public/team.png')] bg-no-repeat bg-contain">
             <Flex align='center' justify='center' gap={8} className='max-[890px]:justify-center'>
                             <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>Meet The</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Team</h2>
                         </Flex>

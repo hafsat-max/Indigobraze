@@ -89,7 +89,7 @@ export const Testimonials = () => {
         <div className='w-[88%] mx-auto py-6 flex flex-col gap-6 slide-container'>
             <Slider {...settings}>
                 {data.map((item) => (
-                    <Flex className='flex-col'>
+                    <Flex className='flex-col' key={item.idx}>
                     <figure
                         className={`  cursor-pointer ${item.idx=== slideIndex+1?`slide slide-active !opacity-100`: `slide`}`} key={item.idx}>
                         <Image width={134} height={134} src={'/about.png'} alt='' className='rounded-full max-w-full' />
@@ -98,7 +98,7 @@ export const Testimonials = () => {
                 ))}
             </Slider>
             {data.map((item)=>(
-                <h3 className='text-center'>{item.idx=== slideIndex+1? item.text:null}</h3>
+                <h3 className='text-center' key={item.idx}>{item.idx=== slideIndex+1? item.text:null}</h3>
             ))}
 
         </div>
