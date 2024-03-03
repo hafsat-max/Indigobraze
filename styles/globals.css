@@ -36,3 +36,9 @@
 .slick-track{
     @apply !flex !items-center
 }
+.slick-dots li.slick-active button:before{
+    color:#FACA10;
+}
+.slick-dots li.slick-active button:before{
+    color:#FFBA00;
+}

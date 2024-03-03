@@ -1,4 +1,4 @@
-import { AboutUs, HeroSection, NavBar, WhatWeDo,Footer, LiveSessions } from "@/src/components";
+import { AboutUs, HeroSection, NavBar, WhatWeDo,Footer, LiveSessions, MeetTheTeam } from "@/src/components";
 import { Testimonials } from "@/src/components/testimonials";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
      <HeroSection/>
      <WhatWeDo/>
      <AboutUs/>
-    meet our career team ...
+     <MeetTheTeam/>
      <LiveSessions/>
      {/* <Testimonial/> */}
      <Testimonials/>

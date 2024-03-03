@@ -9,17 +9,17 @@ const data = [
     {
         id: 1,
         course: 'Project Management',
-        text: 'Master project planning, execution, and coordination.'
+        text: 'Learn the latest methodologies, tools, and best practices to excel in a project-driven environment'
     },
     {
         id: 2,
         course: 'Software Testing',
-        text: 'Learn comprehensive testing methodologies for software quality.'
+        text: 'Gain expertise in various testing methodologies, tools, and automation frameworks.'
     },
     {
         id: 3,
         course: 'Business Analysis',
-        text: 'Excel in analyzing data for strategic decisions.'
+        text: 'Develop the skills to gather requirements, analyze data, and document processes effectively.'
     }
 ]
 
