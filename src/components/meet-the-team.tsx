@@ -49,7 +49,7 @@ export const MeetTheTeam = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000, 
+        autoplaySpeed: 2000, 
         centerMode: true,
         focusOnSelect: true,
         beforeChange: (_:number, next:number) => setCurrentSlide(next),
