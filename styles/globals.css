@@ -42,3 +42,8 @@
 .slick-dots li.slick-active button:before{
     color:#FFBA00;
 }
+
+.mantine-fuwuth{
+    padding-inline: 10px;
+    gap: 10px;
+}
