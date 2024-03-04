@@ -30,7 +30,7 @@ export const NavBar = () => {
                         <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
-                <a href="https://bit.ly/3Thucc0">
+                <a href="https://bit.ly/3uNwpm2">
                     <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
                 </a>
             </ul>
@@ -51,7 +51,7 @@ export const NavBar = () => {
                                 list.map(({ text, id, link }) => (
                                     <li key={id} className='text-18 list-none text-grey cursor-pointer  hover:bg-secondary'><a href={link}>{text}</a></li>
                                 ))}
-                            <a href="https://bit.ly/3Thucc0">
+                            <a href="https://bit.ly/3uNwpm2">
                                 <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
                             </a>
                         </Flex>
