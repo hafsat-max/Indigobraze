@@ -36,10 +36,10 @@ export const Footer = () => {
         <div className='flex flex-col gap-5 text-white'>
           <h4 className='font-semibold'>Contact</h4>
           <ul className='flex flex-col gap-4'>
-            <a href="tel:+447459619262" className='flex items-center gap-2'>
+            <a href="tel:+447730786494" className='flex items-center gap-2'>
               <Call size={24} color='white' />
               <li >
-                (406) 555-0120
+              +44 7730 786494
               </li>
             </a>
             <a href="admin@indigobraze.co.uk" className='flex items-center gap-2'>
