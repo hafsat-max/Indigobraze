@@ -91,14 +91,14 @@ export const Testimonials = () => {
                 {data.map((item) => (
                     <Flex className='flex-col' key={item.idx}>
                     <figure
-                        className={`  cursor-pointer ${item.idx=== slideIndex+1?`slide slide-active !opacity-100`: `slide`}`} key={item.idx}>
+                        className={`  cursor-pointer ${item.idx=== slideIndex+1?`slide slide-active !opacity-100 translate-x-1 `: `slide`}`} key={item.idx}>
                         <Image width={134} height={134} src={'/about.png'} alt='' className='rounded-full max-w-full' />
                     </figure>
                     </Flex>
                 ))}
             </Slider>
             {data.map((item)=>(
-                <h3 className='text-center' key={item.idx}>{item.idx=== slideIndex+1? item.text:null}</h3>
+                <h3 className='text-center max-w-[600px] self-center' key={item.idx}>{item.idx=== slideIndex+1? item.text:null}</h3>
             ))}
 
         </div>

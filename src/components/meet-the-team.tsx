@@ -11,31 +11,46 @@ export const MeetTheTeam = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [testimonialsData] = useState([
         {
-            text: 'Founder/ Lead Consultant',
-            name: 'Ibrahim Olatunde',
-            image: 'avatar.png'
+            text: 'Lead Consultant',
+            name: 'Ibraheem Olatunde',
+            image: '/ibroheem.png'
+        },
+        {
+            text: 'BA consultant',
+            name: 'Grace Odeinde',
+            image: '/avatar2.png'
         },
         {
             text: 'Founder/ Lead Consultant',
-            name: 'Ibrahim Olatunde',
-            image: 'avatar.png'
+            name: 'Shubhra Singh',
+            image: '/avatar3.png'
+        },
+        {
+            text: 'Testing Consultant',
+            name: 'Adedamola Adedeji',
+            image: '/avatar.png'
+        },
+        {
+            text: 'Lead Consultant',
+            name: 'Ibraheem Olatunde',
+            image: '/ibroheem.png'
+        },
+        {
+            text: 'BA consultant',
+            name: 'Grace Odeinde',
+            image: '/avatar2.png'
         },
         {
             text: 'Founder/ Lead Consultant',
-            name: 'Ibrahim Olatunde',
-            image: 'avatar.png'
+            name: 'Shubhra Singh',
+            image: '/avatar3.png'
         },
         {
-            text: 'Founder/ Lead Consultant',
-            name: 'Ibrahim Olatunde',
-            image: 'avatar.png'
+            text: 'Testing Consultant',
+            name: 'Adedamola Adedeji',
+            image: '/avatar.png'
         },
-        {
-            text: 'Founder/ Lead Consultant',
-            name: 'Ibrahim Olatunde',
-            image: 'avatar.png'
-        },
-
+     
     ]);
     
 

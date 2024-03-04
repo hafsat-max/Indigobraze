@@ -16,13 +16,13 @@ export const LiveSessions = () => {
                             <h2 className=' text-[2rem] text-grey text-center !no-underline h-[50px]'>Join our Live</h2><h2 className='underline-colored  text-[2rem] text-grey text-center '>Sessions</h2>
                         </Flex>
                         <p className='text-grey text-base max-w-[400px] tracking-[2%] leading-[176%] max-[890px]:text-center'>You can register for join our next session on career advancement on the link below, or watch the recording of our last session
-                            <b className='text-yellow'> here</b>.</p>
+                            <a className='text-yellow' href='https://drive.google.com/file/d/1t7VMZgAnex1K1xu29s7igaXYdpugyEMj/view?ts=65e4d6af' target='_blank'> here</a>.</p>
                     </div>
                     <a href="https://bit.ly/3Thucc0">
                         <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary max-[890px]:self-center'>Register</button>
                     </a>
                 </div>
-
+ 
                 {/* right session */}
                 <motion.figure className='flex-1 rounded-lg'
                     initial="hidden"

@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import Image, { StaticImageData } from "next/image";
 
 // TestimonialItem.tsx
@@ -13,7 +14,12 @@ export const TestimonialItem = ({ testimonial, name, isActive, image }:ITestimon
 
     return (
         <div className={`cursor-grab transition-transform duration-300 shadow-lg rounded-lg overflow-hidden mb-4 border flex flex-col ${isActive ? activeClass : normalClass}`}>
-            <div className={`bg-[url('/avatar.png')] bg-cover bg-no-repeat flex-1`}>
+            <div className={` bg-cover bg-no-repeat flex-1`}
+            style={{
+                backgroundImage:`url(${image})`
+            }}
+            >
+
             </div>
 
             <div className="py-6 px-4 flex flex-col">
