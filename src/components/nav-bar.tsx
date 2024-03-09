@@ -27,7 +27,7 @@ export const NavBar = () => {
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
                 {
                     list.map(({ text, id, link }) => (
-                        <li key={id} className='text-18 list-none text-grey cursor-pointer'><a href={`${link}`}>{text}</a></li>
+                        <li key={id} className='text-18 list-none text-grey hover:text-primary active:text-primary cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
                 <a href="https://bit.ly/3uNwpm2">
