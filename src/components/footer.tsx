@@ -78,9 +78,9 @@ export const Footer = () => {
               <Email />
               <li>admin@indigobraze.co.uk</li>
             </a>
-            <a href="http://" className="flex items-center gap-2">
+            <a href="https://www.google.com/maps/dir//Bartle+House+Oxford+Court,+Manchester+M2+3WQ,+UK/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x487bb1ea183342fd:0x7f69ec4e969c3e5d?sa=X&ved=2ahUKEwjb5qq8j-qEAxXCVEEAHfxqB8wQwwV6BAgdEAA" className="flex items-center gap-2">
               <Location size={24} color="white" />
-              <li>Address: United Kingdom</li>
+              <li>Bartle House, Oxford Court, Manchester, United Kingdom.</li>
             </a>
           </ul>
         </div>
