@@ -18,12 +18,12 @@ export const MeetTheTeam = () => {
         {
             text: 'BA consultant',
             name: 'Grace Odeinde',
-            image: '/avatar2.png'
+            image: '/avatar0.png'
         },
         {
-            text: 'Founder/ Lead Consultant',
+            text: 'BA Consultant',
             name: 'Shubhra Singh',
-            image: '/avatar3.png'
+            image: '/avatar2.png'
         },
         {
             text: 'Testing Consultant',
