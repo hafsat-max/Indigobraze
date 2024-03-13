@@ -20,7 +20,7 @@ export const HeroSection = () => {
                     <div className='flex flex-col gap-4'>
                         <h2 className='max-w-[800px] text-grey font-bold text-72 text-center'>LAUNCH YOUR TECH CAREER TODAY!</h2>
                         <p className='font-medium text-grey text-18 max-w-[730px] text-center'>
-                            Our comprehensive training program equips you with the in-demand skills and industry knowledge needed to land your first tech job.</p>
+                            Our comprehensive training programme equips you with the in-demand skills and industry knowledge needed to land your first tech job.</p>
                     </div>
                 </motion.div>
                 <motion.div
@@ -33,7 +33,7 @@ export const HeroSection = () => {
                         visible: { opacity: 1, y: 0 },
                     }}>
 
-                    <a href="https://bit.ly/3Thucc0">
+                    <a href="https://bit.ly/3uNwpm2">
                         <button className='bg-primary text-white py-3 px-8 rounded-lg leading-[140%] over:bg-secondary'>Sign Up</button>
                     </a>
                 </motion.div>

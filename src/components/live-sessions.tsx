@@ -15,7 +15,7 @@ export const LiveSessions = () => {
                         <Flex align='center' gap={8} className='max-[890px]:justify-center font-bold'>
                             <h2 className=' text-[2rem] text-grey text-center !no-underline h-[50px]'>Join our Live</h2><h2 className='underline-colored  text-[2rem] text-grey text-center '>Sessions</h2>
                         </Flex>
-                        <p className='text-grey text-base max-w-[400px] tracking-[2%] leading-[176%] max-[890px]:text-center'>You can register for join our next session on career advancement on the link below, or watch the recording of our last session
+                        <p className='text-grey text-base max-w-[400px] tracking-[2%] leading-[176%] max-[890px]:text-center'>You can register for our next session on career advancement on the link below, or watch the recording of our last session
                             <a className='text-yellow' href='https://drive.google.com/file/d/1t7VMZgAnex1K1xu29s7igaXYdpugyEMj/view?ts=65e4d6af' target='_blank'> here</a>.</p>
                     </div>
                     <a href="https://bit.ly/3Thucc0">

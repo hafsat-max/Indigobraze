@@ -8,12 +8,12 @@ import { useAutoAnimate } from '@formkit/auto-animate/react';
 
 const data = [
   {
-    text: ' I wanted to take a moment to express my deep appreciation for the mentorship program provided by your organization. The support and guidance I received during this program have had a profound impact on my career, and I wanted to share my experience with you.',
+    text: ' I wanted to take a moment to express my deep appreciation for the mentorship programme provided by your organization. The support and guidance I received during this programme have had a profound impact on my career, and I wanted to share my experience with you.',
     idx: 1,
     image: '/avatar.png'
   },
   {
-    text: 'When I first joined the mentorship program, I was working as a Project Leader at Network Rail. At that time, I had a solid background in project management, but I felt there were areas where I could further enhance my skills and knowledge. This is when I reached out to your organization for guidance and support. Your recommendations were practical and tailored to my specific needs and goals, making them all the more impactful.',
+    text: 'When I first joined the mentorship programme, I was working as a Project Leader at Network Rail. At that time, I had a solid background in project management, but I felt there were areas where I could further enhance my skills and knowledge. This is when I reached out to your organization for guidance and support. Your recommendations were practical and tailored to my specific needs and goals, making them all the more impactful.',
     idx: 2,
     image: '/avatar1.png'
   },
@@ -35,12 +35,12 @@ const data = [
     image: '/avatar4.png'
   },
   {
-    text: ' I wanted to take a moment to express my deep appreciation for the mentorship program provided by your organization. The support and guidance I received during this program have had a profound impact on my career, and I wanted to share my experience with you.',
+    text: ' I wanted to take a moment to express my deep appreciation for the mentorship programme provided by your organization. The support and guidance I received during this programme have had a profound impact on my career, and I wanted to share my experience with you.',
     idx: 6,
     image: '/avatar1.png'
   },
   {
-    text: 'When I first joined the mentorship program, I was working as a Project Leader at Network Rail. At that time, I had a solid background in project management, but I felt there were areas where I could further enhance my skills and knowledge. This is when I reached out to your organization for guidance and support. Your recommendations were practical and tailored to my specific needs and goals, making them all the more impactful.',
+    text: 'When I first joined the mentorship programme, I was working as a Project Leader at Network Rail. At that time, I had a solid background in project management, but I felt there were areas where I could further enhance my skills and knowledge. This is when I reached out to your organization for guidance and support. Your recommendations were practical and tailored to my specific needs and goals, making them all the more impactful.',
     idx: 7,
     image: '/avatar2.png'
   },
