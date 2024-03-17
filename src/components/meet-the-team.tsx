@@ -38,7 +38,7 @@ export const MeetTheTeam = () => {
         {
             text: 'BA consultant',
             name: 'Grace Odeinde',
-            image: '/avatar2.png'
+            image: '/avatar0.png'
         },
         {
             text: 'BA Consultant',
