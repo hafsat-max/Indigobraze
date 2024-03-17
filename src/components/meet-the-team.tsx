@@ -26,7 +26,7 @@ export const MeetTheTeam = () => {
             image: '/avatar2.png'
         },
         {
-            text: 'Testing Consultant',
+            text: 'Software Testing Consultant',
             name: 'Adedamola Adedeji',
             image: '/avatar.png'
         },
@@ -46,7 +46,7 @@ export const MeetTheTeam = () => {
             image: '/avatar3.png'
         },
         {
-            text: 'Testing Consultant',
+            text: 'Software Testing Consultant',
             name: 'Adedamola Adedeji',
             image: '/avatar.png'
         },
