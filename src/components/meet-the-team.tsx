@@ -31,7 +31,7 @@ export const MeetTheTeam = () => {
             image: '/avatar.png'
         },
         {
-            text: 'Lead Consultant',
+            text: 'Founder/ Lead Consultant',
             name: 'Ibraheem Olatunde',
             image: '/ibroheem.png'
         },
@@ -41,7 +41,7 @@ export const MeetTheTeam = () => {
             image: '/avatar2.png'
         },
         {
-            text: 'Consultant',
+            text: 'BA Consultant',
             name: 'Shubhra Singh',
             image: '/avatar3.png'
         },
