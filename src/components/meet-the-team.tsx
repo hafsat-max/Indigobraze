@@ -11,7 +11,7 @@ export const MeetTheTeam = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [testimonialsData] = useState([
         {
-            text: 'Lead Consultant',
+            text: 'Founder/ Lead Consultant',
             name: 'Ibraheem Olatunde',
             image: '/ibroheem.png'
         },
@@ -41,7 +41,7 @@ export const MeetTheTeam = () => {
             image: '/avatar2.png'
         },
         {
-            text: 'Founder/ Lead Consultant',
+            text: 'Consultant',
             name: 'Shubhra Singh',
             image: '/avatar3.png'
         },
