@@ -31,6 +31,11 @@ export const MeetTheTeam = () => {
             image: '/avatar.png'
         },
         {
+            text:'Social Media Manager',
+            name:'Zainab Muhammed',
+            image:'/zainab.png'
+        },
+        {
             text: 'Founder/ Lead Consultant',
             name: 'Ibraheem Olatunde',
             image: '/ibroheem.png'
