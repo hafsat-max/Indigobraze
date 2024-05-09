@@ -25,16 +25,29 @@ export const MeetTheTeam = () => {
             name: 'Shubhra Singh',
             image: '/avatar2.png'
         },
+        
+        {
+            text: 'Senior Developer',
+            name: 'Janos Kocsis',
+            image: '/avatar1.png'
+        },
+
         {
             text: 'Software Testing Consultant',
             name: 'Adedamola Adedeji',
             image: '/avatar.png'
         },
         {
+            text:'Platform Manager ',
+            name:'Teslim',
+            image:'/teslim.jpeg'
+        },
+        {
             text:'Social Media Manager',
             name:'Zainab Muhammed',
             image:'/zainab.png'
         },
+        // end
         {
             text: 'Founder/ Lead Consultant',
             name: 'Ibraheem Olatunde',
@@ -94,7 +107,7 @@ export const MeetTheTeam = () => {
     };
 
     return (
-        <div className="testimonial-carousel  max-w-[1200px] mx-auto py-12 md:pb-40 overflow-x-hidden h-full flex flex-col gap-6 bg-[url('/public/team.png')] bg-no-repeat bg-contain">
+        <div className="testimonial-carousel w-[88%] max-w-[1200px] mx-auto py-12 md:pb-40 overflow-x-hidden h-full flex flex-col gap-6 bg-[url('/public/team.png')] bg-no-repeat bg-contain">
             <Flex align='center' justify='center' gap={8} className='max-[890px]:justify-center'>
                             <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>Meet The</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Team</h2>
                         </Flex>

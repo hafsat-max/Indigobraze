@@ -23,7 +23,7 @@ export const NavBar = () => {
     ]
     return (
         <section className='flex items-center justify-between px-5 py-5'>
-            <Image width={70} height={50} alt='logo' src='/logo.png' />
+            <Image width={150} height={100} alt='logo' src='/logo.png' />
             <div className='flex items-center gap-8'>
                 <h3 className='text-primary'>Main Website Coming Soon!</h3>
             <ul className='flex items-center gap-32 max-[600px]:hidden'>
