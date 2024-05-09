@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import React, { useEffect } from 'react'
 import "aos/dist/aos.css";
+import { SignUp } from '.';
 
 export const HeroSection = () => {
 
@@ -33,8 +34,8 @@ export const HeroSection = () => {
                         visible: { opacity: 1, y: 0 },
                     }}>
 
-                    <a href="https://bit.ly/3uNwpm2">
-                        <button className='bg-primary text-white py-3 px-8 rounded-lg leading-[140%] over:bg-secondary'>Sign Up</button>
+                    <a>
+                        <SignUp/>
                     </a>
                 </motion.div>
             </div>

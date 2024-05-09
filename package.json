@@ -13,6 +13,7 @@
     "@formkit/auto-animate": "^0.8.1",
     "@mantine/carousel": "6.0.21",
     "@mantine/core": "6.0.21",
+    "@mantine/form": "6.0.21",
     "@mantine/hooks": "6.0.21",
     "@types/react-slick": "^0.23.13",
     "add": "^2.0.6",
@@ -26,7 +27,8 @@
     "react-dom": "^18",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "yarn": "^1.22.21"
+    "yarn": "^1.22.21",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",

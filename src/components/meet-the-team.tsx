@@ -111,7 +111,6 @@ export const MeetTheTeam = () => {
             <Flex align='center' justify='center' gap={8} className='max-[890px]:justify-center'>
                             <h2 className=' text-5xl text-grey text-center !no-underline h-[50px]'>Meet The</h2><h2 className='underline-colored  text-5xl text-grey text-center '>Team</h2>
                         </Flex>
-            
             <Slider {...settings}>
                 {testimonialsData.map((testimonial, index) => (
                     <div key={index} className="p-2">
