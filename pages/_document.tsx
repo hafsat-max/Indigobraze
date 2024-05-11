@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Document() {
   return (
@@ -7,6 +8,7 @@ export default function Document() {
         <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
       </Head>
       <body>
+        <Analytics/>
         <Main />
         <NextScript />
       </body>
