@@ -32,9 +32,9 @@ export const NavBar = () => {
                         <li key={id} className='text-18 list-none text-grey hover:text-primary active:text-primary cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
-                <a href="https://bit.ly/3uNwpm2">
+                {/* <a href="https://bit.ly/3uNwpm2">
                     <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
-                </a>
+                </a> */}
             </ul>
 
             </div>
