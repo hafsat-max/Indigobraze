@@ -8,9 +8,9 @@ export default function Document() {
         <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
       </Head>
       <body>
-        <Analytics/>
         <Main />
         <NextScript />
+        <Analytics/>
       </body>
     </Html>
 
