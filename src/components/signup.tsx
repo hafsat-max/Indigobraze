@@ -19,6 +19,7 @@ export function SignUp() {
     },
   });
 
+
   return (
     <>
       <Modal
@@ -28,11 +29,12 @@ export function SignUp() {
         closeOnClickOutside={false}
         title="Register"
       >
-        <div className=" flex flex-col ">
+        <form className=" flex flex-col gap-3"  id="myForm" action="https://formspree.io/f/xoqgbenp" method="POST">
           <TextInput
             withAsterisk
             label="Email"
             placeholder="example@mail.com"
+            type="email" name="email"
             {...form.getInputProps("email")}
           />
           <TextInput
@@ -42,7 +44,8 @@ export function SignUp() {
             mt="sm"
             {...form.getInputProps("name")}
           />
-        </div>
+          <Button type="submit" variant="primary" classNames={{root:'bg-[#000080] text-white', }}>Submit</Button>
+        </form>
       </Modal>
 
       <Group position="center">

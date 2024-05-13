@@ -20,6 +20,11 @@ export const NavBar = () => {
             id: 3,
             link: '#contact'
         },
+        {
+            text: 'Other services',
+            id: 4,
+            link: '#others'
+        },
     ]
     return (
         <section className='flex items-center justify-between px-5 py-5'>
@@ -32,9 +37,9 @@ export const NavBar = () => {
                         <li key={id} className='text-18 list-none text-grey hover:text-primary active:text-primary cursor-pointer'><a href={`${link}`}>{text}</a></li>
                     ))
                 }
-                {/* <a href="https://bit.ly/3uNwpm2">
+                <a href="https://bit.ly/3uNwpm2">
                     <button className='bg-primary text-white py-3 px-8 rounded-lg hover:bg-secondary'>Register</button>
-                </a> */}
+                </a>
             </ul>
 
             </div>
@@ -54,9 +59,9 @@ export const NavBar = () => {
                                 list.map(({ text, id, link }) => (
                                     <li key={id} className='text-18 list-none text-grey cursor-pointer  hover:bg-secondary'><a href={link}>{text}</a></li>
                                 ))}
-                            <a href="https://bit.ly/3uNwpm2">
+                            {/* <a href="https://bit.ly/3uNwpm2">
                                 <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary'>Register</button>
-                            </a>
+                            </a> */}
                         </Flex>
                     </Menu.Item>
                 </Menu.Dropdown>
