@@ -66,7 +66,7 @@ export const Footer = () => {
         </div>
 
         {/* right side */}
-        <div className="flex flex-col gap-5 text-white">
+        <div className="flex flex-col gap-5 text-white" id="contact">
           <h4 className="font-semibold">Contact</h4>
           <ul className="flex flex-col gap-4">
             <a href="tel:+447730786494" className="flex items-center gap-2">
@@ -82,7 +82,7 @@ export const Footer = () => {
             </a>
             <a href="https://www.google.com/maps/dir//Bartle+House+Oxford+Court,+Manchester+M2+3WQ,+UK/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x487bb1ea183342fd:0x7f69ec4e969c3e5d?sa=X&ved=2ahUKEwjb5qq8j-qEAxXCVEEAHfxqB8wQwwV6BAgdEAA" className="flex items-center gap-2">
               <Location size={24} color="white" />
-              <li>Bartle House, Oxford Court, Manchester, United Kingdom (M2 3WQ).</li>
+              <li>Bartle House, Oxford Court, Manchester, United Kingdom M2 3WQ.</li>
             </a>
           </ul>
         </div>

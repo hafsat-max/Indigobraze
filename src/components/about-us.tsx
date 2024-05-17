@@ -36,7 +36,7 @@ export const AboutUs = () => {
                             <br/><br/>
                             Our mission is to equip individuals with the essential skills, knowledge, and confidence needed to thrive in the tech industry. We achieve this through our rigorous curriculum, expert-led instruction, and unwavering commitment to your success.</p>
                     </div>
-                    <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary self-start !cursor-pointer max-[890px]:self-center'>Join Us</button>
+                    {/* <button className='bg-primary text-white py-2 px-8 rounded-lg hover:bg-secondary self-start !cursor-pointer max-[890px]:self-center'>Join Us</button> */}
                 </motion.div>
             </div>
         </section>

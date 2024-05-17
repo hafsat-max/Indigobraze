@@ -11,7 +11,7 @@ const Newsletter = () => {
         </div>
         <div className='items-center flex justify-between w-full gap-4'>
             <input className='border border-[#6E5DCF] px-10 py-[5px] rounded-lg'/>
-            <Button className='bg-primary hover:bg-secondary'>Suscribe</Button>
+            <Button className='bg-primary hover:bg-secondary'>Subscribe</Button>
         </div>
         </div>   
     </section>
