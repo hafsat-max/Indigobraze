@@ -46,7 +46,7 @@ export function SignUp() {
             withAsterisk
             label="Name"
             placeholder="John Doe"
-            mt="sm"
+            type="name" name="full name"
             {...form.getInputProps("name")}
           />
           <Button
