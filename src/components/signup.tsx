@@ -26,6 +26,7 @@ export function SignUp() {
         opened={opened}
         centered
         onClose={close}
+        
         closeOnClickOutside={false}
         title="Register"
       >
