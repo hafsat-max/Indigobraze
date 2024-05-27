@@ -29,7 +29,7 @@ export function SignUp() {
         title="Register"
       >
         <form
-          className=" flex flex-col gap-3"
+          className=" fle1`x flex-col gap-3"
           id="myForm"
           action="https://formspree.io/f/xoqgbenp"
           method="POST"
